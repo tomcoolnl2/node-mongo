@@ -5,7 +5,7 @@
     <link rel='stylesheet' href='/stylesheets/style.css' />
   </head>
   <body>
-    <h1><%= title %></h1>
+    <%- include('common/title', { title }); %>
     <form id="formAddUser" name="adduser" method="post" action="/adduser">
       <input id="inputUserName" type="text" placeholder="username" name="username" />
       <input id="inputUserEmail" type="text" placeholder="email" name="useremail" />
