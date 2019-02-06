@@ -1,8 +1,8 @@
 
 ## TODO:
-- [ ] Mongo as a seperate Docker container
+- [x] Mongo as a seperate Docker container
 - [ ] Move to mongoose
-- [ ] Add to Git
+- [x] Add to Git
 - [ ] Add Vue as a front-end
 - [ ] Debugging Node
 
